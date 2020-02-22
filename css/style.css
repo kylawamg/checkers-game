@@ -1,0 +1,19 @@
+
+.cell {
+  width: 100px;
+  height: 100px;
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.board {
+  width: 800px;
+}
+
+.brown {
+  background-color: brown;
+}
+
+.white {
+  background-color: #fff;
+}
