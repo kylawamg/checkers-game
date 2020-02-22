@@ -13,11 +13,23 @@ h1 {
 }
 
 .cell {
+  
+  position: relative;
+  z-index: 10;
   width: 100px;
   height: 100px;
   display: inline-block;
 }
 
+
+.checker {
+  position: absolute;
+  z-index: 100;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 1px solid #111;
+}
 
 .board {
   width: 800px; 
@@ -27,7 +39,7 @@ h1 {
 }
 
 .brown {
-  background-color: black;
+  background-color: rgb(109, 43, 0);
 }
 
 .white {

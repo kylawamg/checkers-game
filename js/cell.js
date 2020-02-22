@@ -1,10 +1,11 @@
 // 
 
 class Cell {
-  constructor(row, column, color) {
+  constructor(row, column, color, checker) {
     this.row = row;
     this.column = column;
     this.color = color;
+    this.checker = checker;
   }
   generateCell () {
     const elementDiv = document.createElement('div');
