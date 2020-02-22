@@ -1,19 +1,34 @@
+/*BASICS*/
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+/*BOARD*/
+
+.container{
+  display: flex;
+  justify-content: center;
+}
 
 .cell {
   width: 100px;
   height: 100px;
-  display: inline-flex;
-  flex-wrap: wrap;
+  display: inline-block;
 }
 
+
 .board {
-  width: 800px;
+  width: 800px; 
+  height: 828px;
+  border: 1px solid;
+  margin: 50px 100px;
 }
 
 .brown {
-  background-color: brown;
+  background-color: black;
 }
 
 .white {
-  background-color: #fff;
-}
+  background-color: #fff;}
