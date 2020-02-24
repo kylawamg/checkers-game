@@ -30,10 +30,15 @@ class Board {
         const cellElement = cell.generateCell();
         elementBoard.appendChild(cellElement);
         if (checker) {
-          cellElement.appendChild(checker.generateChecker());
+          cellElement.appendChild(checker.generateChecker(this.moveChecker));
         }
       }
     }
+  }
+
+  moveChecker(event) { 
+    const {row, column, color} = event;
+    
   }
   createChecker(row, column, color) {
     let checker = null;
